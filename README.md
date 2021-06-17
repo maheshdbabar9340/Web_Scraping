@@ -1,4 +1,4 @@
-# Data-Scrapping-from-website
+# Data Scraping from website using Python
 Data Scrapiping from website like Jiomart 
 
 ![image](https://user-images.githubusercontent.com/53929423/122325669-a2271f80-cf48-11eb-9d1e-b90ced5e4947.png)
