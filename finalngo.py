@@ -100,49 +100,51 @@ for i in range(2):
 #     global row
 #     row = row + 20
 #     return row
+workbook = xlsxwriter.Workbook("/home/aadarsh/Desktop/ngo.xlsx")
 
 def getSeperateNgoDetails():
     
-    for link in links:
+    for iteration, link in enumerate(links, start=1):
         r = requests.get(link)
-
+        print(iteration)
         soup = BeautifulSoup(r.text, 'html.parser')
 
         images = soup.find_all('div', class_='ngo_line')
 
         list_of_page = []
         headers = ["NGO Name", "Unique Id of VO/NGO", "Chief Functionary", "Chairman", "Secretary", "Type of NGO", "Registration Number", "frca", "City", "State", "Telephone", "Mobile Number", "Address", "Email", "Website", "Key Issues"]
-        workbook = xlsxwriter.Workbook("C:\\Users\\mahes\\Desktop\\ngo.xlsx")
-        worksheet = workbook.add_worksheet()
-        worksheet.write('A1', 'test')
+        
+        if iteration:
 
-        row  = 1
-        col = 0
+            worksheet1 = workbook.add_worksheet()
+            worksheet1.write('A1', 'test')
 
-        for exam in images:
-            res = exam.text.strip().replace("\n", "").split("   ")
-            d = dict(itertools.zip_longest(*[iter(res)] * 2, fillvalue=""))
-    #         print(res)
-    #         print(d)
-    #         if res[0] in headers:
-    #             print(res)
-    #         element = list(d.items())
-    #         print(element[0])
-            for i,j in d.items():
-                if i in headers:
-    #                 print(i,j)
-                    worksheet.write(row, col, i)
-                    worksheet.write(row, col+1, j)
-                    row+= 1
-                
-    #         list_of_page.append(exam)
- 
-    workbook.close()
+            row  = 1
+            col = 0
+
+            for exam in images:
+                res = exam.text.strip().replace("\n", "").split("   ")
+                d = dict(itertools.zip_longest(*[iter(res)] * 2, fillvalue=""))
+        #         print(res)
+        #         print(d)
+        #         if res[0] in headers:
+        #             print(res)
+        #         element = list(d.items())
+        #         print(element[0])
+                for i,j in d.items():
+                    if i in headers:
+        #                 print(i,j)
+                        worksheet1.write(row, col, i)
+                        worksheet1.write(row, col+1, j)
+                        row+= 1
+
+        
+    
 
 # for link in links:
     
 #     getSeperateNgoDetails(link)
 
 getSeperateNgoDetails() 
-    
+workbook.close()
 # getting all ngos from one page
