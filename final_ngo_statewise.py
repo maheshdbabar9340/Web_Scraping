@@ -8,7 +8,7 @@ import itertools
 all_cities_url = []
 def find_states():
     
-    state = str(input("Enter your state url  \n"))
+    state = str(input("Enter your valid state URL \n"))
     if (state == "https://www.indiangoslist.com/andaman-and-nicobar-island-ngos-list"):
         all_cities_url.append(state)
         state = state + "/"
@@ -300,7 +300,7 @@ def find_states():
             all_cities_url.append(state)
             
     else:
-        print("Please enter valid state url for getting ngo data of specific state")
+        print("This is invalid URL for state \nPlease enter valid state URL for getting ngo data of specific state")
     
             
     return all_cities_url
