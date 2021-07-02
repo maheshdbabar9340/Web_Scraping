@@ -11,3 +11,6 @@ Store all images in different different folders with different categories.
 
 ![image](https://user-images.githubusercontent.com/53929423/122325633-93d90380-cf48-11eb-99ce-21b1e9484fa7.png)
 
+Ngo Data Scraping from whole india statewise
+
+https://www.indiangoslist.com/
