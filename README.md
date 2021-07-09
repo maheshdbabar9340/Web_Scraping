@@ -14,3 +14,7 @@ Store all images in different different folders with different categories.
 Ngo Data Scraping from whole india statewise
 
 https://www.indiangoslist.com/
+
+Data scrapping from Images
+
+https://www.youtube.com/watch?v=fFOdqjBnSBw
