@@ -18,3 +18,7 @@ https://www.indiangoslist.com/
 Data scrapping from Images
 
 https://www.youtube.com/watch?v=fFOdqjBnSBw
+
+Data Scraping from Agra Yellow Pages
+
+http://www.agrayellowpages.in/
