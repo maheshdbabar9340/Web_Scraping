@@ -22,3 +22,14 @@ https://www.youtube.com/watch?v=fFOdqjBnSBw
 Data Scraping from Agra Yellow Pages
 
 http://www.agrayellowpages.in/
+
+![Amarujala](https://user-images.githubusercontent.com/53929423/126873519-3f0001d7-750b-4992-b6ef-c1645c803694.jpeg)
+
+![jiomart with image url](https://user-images.githubusercontent.com/53929423/126873507-7ecb279f-3059-496d-b11f-7049d69e229e.jpeg)
+
+![jiomart](https://user-images.githubusercontent.com/53929423/126873527-7e885627-2ad4-45e4-80be-1a7bdd94c869.jpeg)
+
+![ngo data sorting](https://user-images.githubusercontent.com/53929423/126873537-74b2108b-b923-48b9-87f5-bc3c28f43559.jpeg)
+
+![uttarpradesh ngos urls](https://user-images.githubusercontent.com/53929423/126873543-3c60c621-f632-46a4-a113-5580e6438d30.jpeg)
+
