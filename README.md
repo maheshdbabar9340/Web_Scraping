@@ -33,3 +33,6 @@ http://www.agrayellowpages.in/
 
 ![uttarpradesh ngos urls](https://user-images.githubusercontent.com/53929423/126873543-3c60c621-f632-46a4-a113-5580e6438d30.jpeg)
 
+![image](https://user-images.githubusercontent.com/53929423/126873620-b922f30c-cfa8-4e29-a054-ec353f734dee.png)
+
+![image](https://user-images.githubusercontent.com/53929423/126873597-7356e1a9-026f-4a60-b3c9-de44e97544d0.png)
