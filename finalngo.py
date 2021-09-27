@@ -9,6 +9,7 @@ all_cities_url = []
 def find_states(url):
 
     r = requests.get(url)
+    
     soup = BeautifulSoup(r.text, 'html.parser')
 
     images = soup.find_all('a')
