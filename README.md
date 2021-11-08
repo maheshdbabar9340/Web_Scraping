@@ -1,4 +1,4 @@
-# Data Scraping from website using Python with Jupyter
+#Data Scraping from website using Python with Jupyter
 
 Data Scraping from website like Jiomart, Newspapers like Amarujala and Dainik Bhaskar and Data scraping of All Ngos from India categorised with different states in India.
 
