@@ -28,7 +28,7 @@ Data scrapping from Images
 
 https://www.youtube.com/watch?v=fFOdqjBnSBw
 
-Data Scraping from Agra Yellow Pages
+Data Scraping from Agra Yellow Pages for getting all phone numbers.
 
 http://www.agrayellowpages.in/
 
